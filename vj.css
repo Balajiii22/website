@@ -1,0 +1,68 @@
+body {
+  background-color: lightgray;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+  margin: 10;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+section#about:hover,
+section#movies:hover,
+section#contact:hover,
+section#social:hover,
+section#gallery:hover,
+section#awards:hover {
+  background-color: #f2f2f2;
+}
+section#about,
+section#movies,
+section#contact,
+section#social,
+section#gallery,
+section#awards {
+  transition: background-color 0.3s;
+}
+section {
+  padding: 20px;
+}
+h2 {
+  color: #333;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-images img {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  border-radius: 7%; 
+}
+.social ul li a{
+  text-decoration: none;
+  color: black;
+}
